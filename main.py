@@ -31,7 +31,7 @@ class Student:
 
         return self.score
 
-#Creating an instance of the class
+#Creating an instance of the Student
 
 Bob = Student(name="Bob", age=26, tracks=["FE","BE"],score=20.90)
 
