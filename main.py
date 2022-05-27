@@ -1,8 +1,4 @@
-import string
-from types import new_class
-from unicodedata import name
-
-
+#Creating a class
 class Student:
     # [assignment] Skeleton class. Add your code here
     def __init__(self, tracks, score, name, age):
@@ -10,6 +6,8 @@ class Student:
         self.age : int = age
         self.tracks : list = tracks
         self.score :float = score
+
+    #Creating class methods
 
     def change_name(self, new_name):
         if not isinstance(new_name, str):
@@ -33,6 +31,7 @@ class Student:
 
         return self.score
 
+#Creating an instance of the class
 
 Bob = Student(name="Bob", age=26, tracks=["FE","BE"],score=20.90)
 
